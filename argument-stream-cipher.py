@@ -110,7 +110,7 @@ if __name__ == '__main__':
             py_type = int
         recover_type(value, py_type)
 
-        sys.stdout.write(encode_argument(name, domain, type_, value))
+        sys.stdout.buffer.write(encode_argument(name, domain, type_, value))
         sys.stdout.flush()
         i += 4
 

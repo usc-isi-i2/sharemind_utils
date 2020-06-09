@@ -4,6 +4,8 @@ This repository stores all [Sharemind](https://sharemind.cyber.ee/) MPC related 
 
 ## Docker
 
+Docker related files are in [docker](docker) folder which is modified based on https://github.com/MPC-SoK/frameworks/blob/master/sharemind.
+
 ## Emulator argument streaming
 
 Sharemind only allows to pass in `int`, `uint` and `bint` series data types from command line. `argument-stream-cipher.py` encodes data to byte stream and bypasses this restriction. It supports all primitive data types.
@@ -32,4 +34,8 @@ To decode emulator's output, `argument-stream-decipher.py` can be used.
 ```
 sharemind-emulator <compiled_SecreC_program>.sb <input arguments> | python argument-stream-decipher.py
 ```
+
+## Algorithm implementations
+
+- [Jaccard](jaccard)
 

@@ -1,6 +1,6 @@
-# PPER - Sharemind
+# Sharemind utils
 
-This repository stores all [Sharemind](https://sharemind.cyber.ee/) MPC related scripts and notes.
+This repository stores all [Sharemind](https://sharemind.cyber.ee/) MPC related utility scripts and notes.
 
 ## Docker
 
@@ -34,8 +34,3 @@ To decode emulator's output, `argument-stream-decipher.py` can be used.
 ```
 sharemind-emulator <compiled_SecreC_program>.sb <input arguments> | python argument-stream-decipher.py
 ```
-
-## Algorithm implementations
-
-- [Jaccard](jaccard)
-
